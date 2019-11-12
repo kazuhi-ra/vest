@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>あしたのベスト</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row">
+  <a class="navbar-brand mt-1 mt-md-0 mb-2 mb-md-0 mr-0 mr-md-2" href="/">あしたのベスト</a>
+  <ul class="navbar-nav flex-row">
+    <li class="nav-item">
+      <a class="nav-link " href="/vests">ベスト一覧</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/">みんなの投稿</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="/support">応援する</a>
+    </li>
+  </ul>
+</header>
+<main>
+  <div class="kazuhira-images"></div>
+  <section>
+    <div class="stops"></div>
+    <div id="start">スタート！</div>
+  </section>
+</main>
+<div class="canvas">
+  <canvas id="myCanvas">
+  </canvas>
+  <img id="output" src="">
+</div>
+<script src="/js/main.js"></script>
+</body>
+
+</html>

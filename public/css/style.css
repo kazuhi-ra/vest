@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.92);
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* HTML5 display-role reset for older browsers */
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background-image: url(../images/renga.png);
+}
+
+header {
+    background-color: #17223b;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+main section img{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.stops {
+    width: 300px;
+    margin: 30px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.stop {
+    margin: 0 auto 4px auto;
+    cursor: pointer;
+    width: 56px;
+    height: 32px;
+    background-color: #ef454a;
+    box-shadow: 0 4px 0 #d1483e;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    user-select: none;
+}
+
+.stop:active {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    box-shadow: none;
+}
+
+#start {
+    color: #dedede;
+    cursor: pointer;
+    width: 250px;
+    height: 36px;
+    background-color: #3498db;
+    box-shadow: 0 4px 0 #2880b9;
+    border-radius: 18px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    user-select: none;
+    margin: 30px auto 20px auto;
+}
+
+#start:active {
+    margin: 38px auto 20px auto;
+    box-shadow: none;
+}
+
+canvas {
+    margin: 0 auto;
+}
+
+/* /////////////////////////////////////// */
+.inactive {
+    opacity: 0.9;
+}
