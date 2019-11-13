@@ -120,7 +120,13 @@ main section img{
     box-shadow: none;
 }
 
+.canvas {
+    width: 300px;
+    margin: 0 auto;
+}
+
 canvas {
+    /*width: 200px;*/
     margin: 0 auto;
 }
 

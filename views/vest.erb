@@ -27,13 +27,33 @@
 </header>
 <main>
   <div class="canvas">
-    <canvas id="myCanvas">
-    </canvas>
-    <img id="output" src="">
+    <canvas id="myCanvas" width="300" height="500"></canvas>
   </div>
 </main>
+<!--<script src="/js/canvas-vest.js"></script>-->
 <script type="text/javascript" charset="utf-8">
+  "use strict";
 
+  let c = document.getElementById("myCanvas");
+  let ctx = c.getContext("2d");
+  let imageObj1 = new Image();
+  let imageObj2 = new Image();
+  let imageObj3 = new Image();
+  imageObj1.src = "../images/vest_head.png";
+
+  imageObj1.onload = () => {
+    ctx.drawImage(imageObj1, 0, 0, 300, 150);
+
+    imageObj2.src = "../images/vest_0<%= @id %>.png";
+    imageObj2.onload = () => {
+      ctx.drawImage(imageObj2, 0, 150, 300, 150);
+
+      imageObj3.src = "../images/vest_foot.png";
+      imageObj3.onload = () => {
+        ctx.drawImage(imageObj3, 0, 300, 300, 200);
+      };
+    };
+  };
 </script>
 </body>
 
