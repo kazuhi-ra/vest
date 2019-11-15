@@ -4,22 +4,6 @@
     <list default="true" id="fef2de3b-0415-4fec-b963-d6c283943a05" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.bundle/config" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/h1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/h2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/h3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/p5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/v8.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blog/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blog/.ruby-version" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blog/Gemfile" afterDir="false" />
@@ -13091,15 +13075,6 @@
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/views/index.pug" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/views/layout.pug" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vest_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vest_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vest_foot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/vest_head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/canvas-vest.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/canvas-vest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vest.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/vest.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13113,45 +13088,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1379">
-              <caret line="110" column="23" lean-forward="true" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/vest.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/vests.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/support.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
+            <state relative-caret-position="340">
               <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
             </state>
           </provider>
@@ -13160,17 +13099,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/top.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="107">
+              <caret line="62" column="105" lean-forward="true" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -13187,8 +13117,8 @@
       <find>opa</find>
       <find>01</find>
       <find>vest_01</find>
-      <find>png</find>
       <find>padding</find>
+      <find>png</find>
     </findStrings>
     <replaceStrings>
       <replace>images/</replace>
@@ -13317,12 +13247,12 @@
       <option name="presentableId" value="Default" />
       <updated>1573529731043</updated>
       <workItem from="1573529732612" duration="12618000" />
-      <workItem from="1573810373849" duration="4005000" />
+      <workItem from="1573810373849" duration="4282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16623000" />
+    <option name="totallyTimeSpent" value="16900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-392" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -13341,7 +13271,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.35856575" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39442232" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39442232" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -13493,20 +13423,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/support.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/images/v3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/v4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/v5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/v6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/v7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/v8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/v2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/v1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/support.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        <state relative-caret-position="107">
+          <caret line="62" column="105" lean-forward="true" selection-start-line="62" selection-start-column="105" selection-end-line="62" selection-end-column="105" />
         </state>
       </provider>
     </entry>

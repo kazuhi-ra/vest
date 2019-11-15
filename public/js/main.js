@@ -54,12 +54,9 @@
       this.stop.classList.remove("inactive");
     }
   }
-  
-  const headImages = ["images/h1.jpg", "images/h2.jpg", "images/h3.jpg"];
-  
-  const vestImages = ["images/v1.jpg", "images/v2.jpg", "images/v3.jpg", "images/v4.jpg", "images/v5.jpg", "images/v6.jpg", "images/v7.jpg", "images/v8.jpg"];
-  // const images = ["images/vest_01.png", "images/vest_02.png"];
 
+  const headImages = ["images/h1.jpg", "images/h2.jpg", "images/h3.jpg"];
+  const vestImages = ["images/v1.jpg", "images/v2.jpg", "images/v3.jpg", "images/v4.jpg", "images/v5.jpg", "images/v6.jpg", "images/v7.jpg", "images/v8.jpg"];
   const footImages = ["images/p1.jpg", "images/p2.jpg", "images/p3.jpg", "images/p4.jpg", "images/p5.jpg"];
 
   const panels = [
@@ -81,30 +78,4 @@
       panel.start();
     });
   });
-  
-  // let c = document.getElementById("myCanvas");
-  // let ctx = c.getContext("2d");
-  // let imageObj1 = new Image();
-  // let imageObj2 = new Image();
-  // let imageObj3 = new Image();
-  // imageObj1.src = "images/vest_head.png"
-  //
-  // imageObj1.onload = function () {
-  //   ctx.drawImage(imageObj1, 0, 0, 100, 50);
-  //
-  //   imageObj2.src = "images/vest_01.png";
-  //   imageObj2.onload = function () {
-  //     ctx.drawImage(imageObj2, 0, 50, 100, 50);
-  //
-  //     imageObj3.src = "images/vest_foot.png";
-  //     imageObj3.onload = function () {
-  //       ctx.drawImage(imageObj3, 0, 100, 100, 50);
-  //       // let sanmi = c.toDataURL("image/png");
-  //       // document.write(`<img src=sanmi>`);
-  //       let dataURL = c.toDataURL();
-  //       // let output = document.getElementById("output");
-  //       // output.src = dataURL;
-  //     }
-  //   }
-  // };
 }
