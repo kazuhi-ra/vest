@@ -46,7 +46,7 @@
       this.img.src = this.getRandomImage();
       this.timeoutId = setTimeout(() => {
         this.start();
-      }, 0.01);
+      }, 10);
     }
 
     activate() {
@@ -54,15 +54,17 @@
       this.stop.classList.remove("inactive");
     }
   }
+  
+  const headImages = ["images/h1.jpg", "images/h2.jpg", "images/h3.jpg"];
+  
+  const vestImages = ["images/v1.jpg", "images/v2.jpg", "images/v3.jpg", "images/v4.jpg", "images/v5.jpg", "images/v6.jpg", "images/v7.jpg", "images/v8.jpg"];
+  // const images = ["images/vest_01.png", "images/vest_02.png"];
 
-  const images = ["images/vest_01.png", "images/vest_02.png"];
-  const headImages = ["images/vest_head.png", "images/vest_02.png"];
-
-  const footImages = ["images/vest_foot.png"];
+  const footImages = ["images/p1.jpg", "images/p2.jpg", "images/p3.jpg", "images/p4.jpg", "images/p5.jpg"];
 
   const panels = [
     new Panel(headImages),
-    new Panel(images),
+    new Panel(vestImages),
     new Panel(footImages)
   ];
 

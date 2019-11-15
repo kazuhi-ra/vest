@@ -19,7 +19,7 @@ imageObj1.onload = function () {
       ctx.drawImage(imageObj3, 0, 100, 100, 50);
       // let sanmi = c.toDataURL("image/png");
       // document.write(`<img src=sanmi>`);
-      let dataURL = c.toDataURL();
+      // let dataURL = c.toDataURL();
       // let output = document.getElementById("output");
       // output.src = dataURL;
     };
