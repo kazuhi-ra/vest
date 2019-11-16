@@ -18,40 +18,123 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
     color: rgba(255, 255, 255, 0.92);
 }
+
 ol, ul {
     list-style: none;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/* HTML5 display-role reset for older browsers */
 
+/* HTML5 display-role reset for older browsers */
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     background-image: url(../images/renga.png);
 }
 
-header {
+.header-basic {
     background-color: #17223b;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15);
+    padding: 20px 40px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.header-basic .header-limiter {
+    max-width: 1200px;
+    text-align: center;
     margin: 0 auto;
+}
+
+/* Logo */
+
+.header-basic .header-limiter h1 {
+    float: left;
+    line-height: 40px;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* The header links */
+
+.header-basic .header-limiter a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-basic .header-limiter nav {
+    
+    line-height: 40px;
+    float: right;
+}
+
+.header-basic .header-limiter nav a {
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    opacity: 0.65;
+}
+
+.header-basic .header-limiter nav a:hover {
+    opacity: 0.9;
+}
+
+.header-basic .header-limiter nav a.selected {
+    /*color: #608bd2;*/
+    pointer-events: none;
+    opacity: 1;
+}
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+    .header-basic {
+        padding: 20px 0;
+        height: 75px;
+    }
+
+    .header-basic .header-limiter h1 {
+        float: none;
+        margin: -6px 0 10px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 1;
+    }
+
+    .header-basic .header-limiter nav {
+        line-height: 1;
+        float: none;
+    }
+
+    .header-basic .header-limiter nav a {
+        font-size: 13px;
+    }
 }
 
 main {
@@ -66,9 +149,21 @@ main section {
     flex-direction: column;
 }
 
-main section img{
+main section img {
     width: 300px;
     margin: 0 auto;
+}
+
+main section:nth-child(1) img {
+    height: 120px;
+}
+
+main section:nth-child(2) img {
+    height: 150px;
+}
+
+main section:nth-child(3) img {
+    height: 232px;
 }
 
 .stops {
@@ -102,7 +197,7 @@ main section img{
 #start {
     color: #dedede;
     cursor: pointer;
-    width: 250px;
+    width: 240px;
     height: 36px;
     background-color: #3498db;
     box-shadow: 0 4px 0 #2880b9;
@@ -116,7 +211,7 @@ main section img{
 }
 
 #start:active {
-    margin: 38px auto 20px auto;
+    margin: 26px auto 20px auto;
     box-shadow: none;
 }
 
