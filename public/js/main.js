@@ -55,7 +55,7 @@
   }
 
   const headImages = ["images/h1.jpg", "images/h2.jpg", "images/h3.jpg"];
-  const vestImages = ["images/v1.jpg", "images/v2.jpg", "images/v3.jpg"];
+  const vestImages = ["images/v1.jpg", "images/v2.jpg", "images/v3.jpg", "images/v4.jpg", "images/v5.jpg", "images/v6.jpg", "images/v8.jpg"];
   const footImages = ["images/p1.jpg", "images/p2.jpg", "images/p3.jpg", "images/p4.jpg", "images/p5.jpg"];
 
   const panels = [
