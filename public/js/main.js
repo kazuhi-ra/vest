@@ -23,11 +23,19 @@
         this.stop.classList.add("inactive");
         clearTimeout(this.timeoutId);
         panelsLeft--;
+        clickStop++;
 
         if (panelsLeft === 0) {
           start.classList.remove("inactive");
           panelsLeft = 3;
         }
+        
+        if (clickStop === 3) {
+          tweet.classList.remove("hidden");
+          start.classList.add("hidden");
+        }
+
+        console.log(this.img.src);
       });
 
       section.appendChild(this.img);
@@ -49,7 +57,6 @@
     }
 
     activate() {
-      this.img.classList.remove("unmatched");
       this.stop.classList.remove("inactive");
     }
   }
@@ -65,6 +72,7 @@
   ];
 
   let panelsLeft = 3;
+  let clickStop = 0; 
 
   const start = document.getElementById("start");
   start.addEventListener("click", () => {
@@ -77,4 +85,6 @@
       panel.start();
     });
   });
+
+  const tweet = document.getElementById("tweet");
 }
