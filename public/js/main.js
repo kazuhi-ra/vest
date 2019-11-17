@@ -23,19 +23,21 @@
         this.stop.classList.add("inactive");
         clearTimeout(this.timeoutId);
         panelsLeft--;
-        clickStop++;
+
+        vestUrl.push(this.img.src.match(/images\/(\w+)/)[1]);
 
         if (panelsLeft === 0) {
           start.classList.remove("inactive");
           panelsLeft = 3;
-        }
-        
-        if (clickStop === 3) {
           tweet.classList.remove("hidden");
           start.classList.add("hidden");
+          const t = `${vestUrl[0]}${vestUrl[1]}${vestUrl[2]}`;
+          const good = `${t.match(/h\w/)[0].slice(1, 2)}${t.match(/v\w/)[0].slice(1, 2)}${t.match(/p\w/)[0].slice(1, 2)}`;
+          tweet.href = `/vest/${good}`;
+          
+          console.log(t);
+          console.log(good);
         }
-
-        console.log(this.img.src);
       });
 
       section.appendChild(this.img);
@@ -86,5 +88,6 @@
     });
   });
 
+  const vestUrl = [];
   const tweet = document.getElementById("tweet");
 }

@@ -203,6 +203,7 @@ main section:nth-child(3) img {
     font-weight: bold;
     user-select: none;
     margin: 20px auto 20px auto;
+    text-decoration: none;
 }
 
 .canvas {
