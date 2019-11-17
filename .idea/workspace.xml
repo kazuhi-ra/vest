@@ -13094,7 +13094,7 @@
             <entry file="file://$PROJECT_DIR$/views/vest.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-231">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -13103,7 +13103,7 @@
             <entry file="file://$PROJECT_DIR$/views/top.erb">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="441">
-                  <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+                  <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -13125,16 +13125,25 @@
             <entry file="file://$PROJECT_DIR$/public/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="417">
-                  <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+                  <caret line="206" selection-start-line="206" selection-end-line="206" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/public/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="562">
+                  <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/js/main.js">
+            <entry file="file://$PROJECT_DIR$/config.ru">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="562">
-                  <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+                <state>
+                  <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -13143,7 +13152,7 @@
             <entry file="file://$PROJECT_DIR$/myapp.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+                  <caret column="8" selection-start-column="8" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -13201,6 +13210,7 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/views/top.erb" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/config.ru" />
       </list>
     </option>
   </component>
@@ -13223,34 +13233,6 @@
             <path>
               <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
@@ -13311,12 +13293,12 @@
       <updated>1573529731043</updated>
       <workItem from="1573529732612" duration="12618000" />
       <workItem from="1573810373849" duration="6268000" />
-      <workItem from="1573875326104" duration="16641000" />
+      <workItem from="1573875326104" duration="16956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35527000" />
+    <option name="totallyTimeSpent" value="35842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -13329,8 +13311,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-392" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900398" visible="true" weight="0.09158679" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49900398" visible="true" weight="0.09158679" />
       <window_info id="Structure" order="1" sideWeight="0.500996" side_tool="true" weight="0.118743345" />
       <window_info id="Favorites" order="2" sideWeight="0.500996" side_tool="true" weight="0.118743345" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -13343,7 +13326,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.35856575" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40338644" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40338644" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -13417,13 +13400,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/erb_template.erb" />
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -13505,14 +13481,14 @@
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
-          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -13528,21 +13504,35 @@
     <entry file="file://$PROJECT_DIR$/views/top.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/vest.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-231">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
