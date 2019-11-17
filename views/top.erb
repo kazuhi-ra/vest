@@ -12,6 +12,7 @@
   <meta property="og:description" content="かずひら音楽日記を使ったテストです。エポキシ加工された指板です。" />
   <meta property="og:image" content="https://cdn-ak.f.st-hatena.com/images/fotolife/k/kazuhi_ra/20180628/20180628153649.jpg" />
   <title>あしたのベスト</title>
+  <link rel="icon" href="/favicon.ico">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -33,6 +34,17 @@
     <div class="hidden" id="tweet">ツイートする</div>
   </section>
 </main>
+<div>
+  <% 3.times do |n| %>
+    <img class="hidden" src="/images/h<%= n + 1 %>.jpg">
+  <% end %>
+  <% 5.times do |n| %>
+    <img class="hidden" src="/images/p<%= n + 1 %>.jpg">
+  <% end %>
+  <% 8.times do |n| %>
+    <img class="hidden" src="/images/v<%= n + 1 %>.jpg">
+  <% end %>
+</div>
 <script src="/js/main.js"></script>
 </body>
 

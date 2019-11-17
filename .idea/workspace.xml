@@ -13075,8 +13075,10 @@
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/views/index.pug" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/views/layout.pug" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/renga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/top.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/top.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/vest.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/vest.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13091,20 +13093,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.45252052">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/vest.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+                <state relative-caret-position="141">
+                  <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/top.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+                <state relative-caret-position="474">
+                  <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -13125,8 +13127,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+                <state relative-caret-position="1689">
+                  <caret line="281" column="5" lean-forward="true" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -13226,16 +13228,16 @@
         <option value="$PROJECT_DIR$/views/posts.erb" />
         <option value="$PROJECT_DIR$/views/vests.erb" />
         <option value="$PROJECT_DIR$/public/js/canvas-vest.js" />
-        <option value="$PROJECT_DIR$/views/top.erb" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/views/vest.erb" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/views/vest.erb" />
+        <option value="$PROJECT_DIR$/views/top.erb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-392" />
     <option name="y" value="-1080" />
     <option name="width" value="1920" />
@@ -13259,12 +13261,6 @@
               <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ashitano_vest" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ashitano_vest" type="b2602c69:ProjectViewProjectNode" />
@@ -13333,12 +13329,12 @@
       <workItem from="1573529732612" duration="12618000" />
       <workItem from="1573810373849" duration="6268000" />
       <workItem from="1573875326104" duration="17631000" />
-      <workItem from="1573984619097" duration="1322000" />
+      <workItem from="1573984619097" duration="3243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37839000" />
+    <option name="totallyTimeSpent" value="39760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -13350,7 +13346,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-392" y="-1080" width="1920" height="1080" extended-state="6" />
+    <frame x="-392" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49900398" visible="true" weight="0.09211928" />
       <window_info id="Structure" order="1" sideWeight="0.500996" side_tool="true" weight="0.118743345" />
@@ -13461,9 +13458,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/v8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/h1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/v4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -13516,13 +13510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/top.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/canvas-vest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -13558,16 +13545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/vest.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -13578,10 +13555,30 @@
     <entry file="file://$PROJECT_DIR$/public/images/renga.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/vest.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/h1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="1689">
+          <caret line="281" column="5" lean-forward="true" selection-start-line="281" selection-start-column="5" selection-end-line="281" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/top.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
