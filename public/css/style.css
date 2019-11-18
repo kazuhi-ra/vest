@@ -142,7 +142,7 @@ main section:nth-child(3) img {
 
 .stops {
     width: 300px;
-    margin: 20px auto 0 auto;
+    margin: 12px auto 0 auto;
     display: flex;
     flex-direction: row;
 }
@@ -171,17 +171,17 @@ main section:nth-child(3) img {
 #start {
     color: #dedede;
     cursor: pointer;
-    width: 240px;
-    height: 36px;
+    width: 260px;
+    height: 38px;
     background-color: #3498db;
     box-shadow: 0 4px 0 #2880b9;
     border-radius: 8px;
-    line-height: 36px;
+    line-height: 38px;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
     user-select: none;
-    margin: 20px auto 20px auto;
+    margin: 18px auto 20px auto;
 }
 
 #start:active {
@@ -219,11 +219,11 @@ main section:nth-child(3) img {
 }
 
 #once-again {
-    color: #dedede;
+    color: #d6d6d6;
     cursor: pointer;
     width: 120px;
     height: 36px;
-    background-color: #ecb746;
+    background-color: #e9b545;
     box-shadow: 0 4px 0 #bb9137;
     border-radius: 8px;
     line-height: 36px;
@@ -397,9 +397,9 @@ canvas {
 
     .stop {
         width: 50px;
-        height: 40px;
+        height: 36px;
         border-radius: 22px;
-        line-height: 40px;
+        line-height: 36px;
         font-size: 14px;
     }
 
@@ -431,7 +431,6 @@ canvas {
     }
 
     .description {
-        float: left;
         width: 50%;
     }
     
@@ -446,8 +445,6 @@ canvas {
 
     .text-contents {
         width: 90%;
-        display: inline-block;
-        margin-top: 10px;
         font-size: 12px;
         color: black;
     }
