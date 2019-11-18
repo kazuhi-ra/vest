@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <head>
+  <% ids = @id.to_s.chars %>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,9 +12,7 @@
   <meta property="og:title" content="あしたのベスト" />
   <meta property="og:url" content="https://ashitano.herokuapp.com/" />
   <meta property="og:description" content="まわしますか、まわしませんか。" />
-<!--  23-->
-  <meta id="og-image" property="og:image" content="https://i.gyazo.com/ff23f3895b04e461b36f900cd6a4c079.png" />
-  
+  <meta id="og-image" property="og:image" content="https://ashitano.herokuapp.com/images/<%= ids[1] %><%= ids[2] %>.png" />
   
   <title>あしたのベスト</title>
   <link rel="stylesheet" href="/css/style.css">
@@ -37,7 +36,6 @@
 </main>
 <script type="text/javascript" charset="utf-8">
   "use strict";
-  <% ids = @id.to_s.chars %>
   const c = document.getElementById("myCanvas");
   const ctx = c.getContext("2d");
   const imageObj1 = new Image();
@@ -58,13 +56,6 @@
       };
     };
   };
-  
-  setTimeout( () => {
-    const data = c.toDataURL('image/jpeg');
-    document.getElementById('result').innerHTML = `<img src="${data}">`;
-    // document.querySelector('#og-image').content = `${data}`;
-  }, 100);
-
 </script>
 </body>
 
