@@ -240,6 +240,53 @@ main section:nth-child(3) img {
     box-shadow: none;
 }
 
+/*.vests-wrapper {*/
+/*     width: 900px;*/
+/*     margin: 0 auto;*/
+/* }*/
+.wrapper {
+    padding: 20px 15px;
+}
+
+.vests-wrapper {
+    height: 580px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgba(168, 168, 168, 0.9);
+}
+
+.vests-wrapper h1{
+    color: black;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.v-image {
+    margin-top: 22px;
+}
+
+.description {
+    float: left;
+    width: 33.3%;
+}
+
+.description img {
+    width: 300px;
+    height: 150px;
+}
+
+.description p {
+    font-size: 15px;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: black;
+}
+
 .timeline-wrapper {
     width: 500px;
 }
@@ -360,6 +407,51 @@ canvas {
         margin: 20px auto 20px auto;
         box-shadow: none;
     }
+
+
+    .wrapper {
+        padding: 20px 15px;
+    }
+
+    .vests-wrapper {
+        height: 520px;
+        padding-bottom: 80px;
+        text-align: center;
+        background-color: rgba(168, 168, 168, 0.9);
+    }
+
+    .vests-wrapper h1{
+        color: black;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+
+    .v-image {
+        margin-top: 22px;
+    }
+
+    .description {
+        float: left;
+        width: 50%;
+    }
+    
+    .description img {
+        width: 160px; 
+        height: 80px;
+    }
+
+    .description p {
+        font-size: 15px;
+    }
+
+    .text-contents {
+        width: 90%;
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 12px;
+        color: black;
+    }
+    
 
     .timeline-wrapper {
         width: 320px;
