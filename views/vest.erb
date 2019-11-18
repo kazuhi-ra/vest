@@ -11,9 +11,9 @@
   <meta property="og:title" content="あしたのベスト" />
   <meta property="og:url" content="https://ashitano.herokuapp.com/" />
   <meta property="og:description" content="まわしますか、まわしませんか。" />
-  <!--  ここをerbで変える-->
-  <meta id="og-image" property="og:image" content="" />
-  <!--  ここをerbで変える-->
+<!--  23-->
+  <meta id="og-image" property="og:image" content="https://i.gyazo.com/ff23f3895b04e461b36f900cd6a4c079.png" />
+  
   
   <title>あしたのベスト</title>
   <link rel="stylesheet" href="/css/style.css">
@@ -61,9 +61,9 @@
   
   setTimeout( () => {
     const data = c.toDataURL('image/jpeg');
-    // document.getElementById('result').innerHTML = `<img src="${data}">`;
-    document.querySelector('#og-image').content = `${data}`;
-  }, 1000);
+    document.getElementById('result').innerHTML = `<img src="${data}">`;
+    // document.querySelector('#og-image').content = `${data}`;
+  }, 100);
 
 </script>
 </body>
