@@ -20,6 +20,10 @@
         if (this.stop.classList.contains("inactive")) {
           return;
         }
+        if (vestUrl.length === 3) {
+          vestUrl.length = 0;
+        }
+        
         this.stop.classList.add("inactive");
         clearTimeout(this.timeoutId);
         panelsLeft--;
@@ -28,13 +32,16 @@
 
         if (panelsLeft === 0) {
           start.classList.remove("inactive");
+          tweet.classList.remove("inactive");
+          onceAgain.classList.remove("inactive");
           panelsLeft = 3;
           tweet.classList.remove("hidden");
+          onceAgain.classList.remove("hidden");
           start.classList.add("hidden");
-          const t = `${vestUrl[0]}${vestUrl[1]}${vestUrl[2]}`;
-          const good = `${t.match(/h\w/)[0].slice(1, 2)}${t.match(/v\w/)[0].slice(1, 2)}${t.match(/p\w/)[0].slice(1, 2)}`;
+          let t = `${vestUrl[0]}${vestUrl[1]}${vestUrl[2]}`;
+          let good = `${t.match(/h\w/)[0].slice(1, 2)}${t.match(/v\w/)[0].slice(1, 2)}${t.match(/p\w/)[0].slice(1, 2)}`;
+          console.log(good);
           tweet.href = `http://twitter.com/share?url=https://ashitano.herokuapp.com/vest/${good}&text=@kazuhira あしたのベストはこれです&hashtags=あしたのベスト`;
-          // console.log(aaa.dataset.url);
         }
       });
 
@@ -72,7 +79,6 @@
   ];
 
   let panelsLeft = 3;
-  let clickStop = 0; 
 
   const start = document.getElementById("start");
   start.addEventListener("click", () => {
@@ -88,5 +94,18 @@
 
   const vestUrl = [];
   const tweet = document.getElementById("tweet");
-  const aaa = document.querySelector("iframe");
+  const onceAgain = document.getElementById("once-again");
+  
+  onceAgain.addEventListener("click", () => {
+    if (onceAgain.classList.contains("inactive")) {
+      return;
+    }
+    panels.forEach(panel => {
+      panel.activate();
+      panel.start();
+    });
+    tweet.classList.add("inactive");
+    onceAgain.classList.add("inactive");
+  });
 }
+

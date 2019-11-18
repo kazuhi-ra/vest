@@ -13,10 +13,6 @@ get '/posts' do
   erb :posts
 end
 
-get '/support' do
-  erb :support
-end
-
 get '/vest/:id' do
   @id = params[:id]
   redirect to '/' if @id.size != 3
