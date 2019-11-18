@@ -33,10 +33,8 @@
           start.classList.add("hidden");
           const t = `${vestUrl[0]}${vestUrl[1]}${vestUrl[2]}`;
           const good = `${t.match(/h\w/)[0].slice(1, 2)}${t.match(/v\w/)[0].slice(1, 2)}${t.match(/p\w/)[0].slice(1, 2)}`;
-          tweet.href = `/vest/${good}`;
-          
-          console.log(t);
-          console.log(good);
+          tweet.href = `http://twitter.com/share?url=https://ashitano.herokuapp.com/vest/${good}&text=@kazuhira あしたのベストはこれです&hashtags=あしたのベスト`;
+          // console.log(aaa.dataset.url);
         }
       });
 
@@ -90,4 +88,5 @@
 
   const vestUrl = [];
   const tweet = document.getElementById("tweet");
+  const aaa = document.querySelector("iframe");
 }
