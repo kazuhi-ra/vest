@@ -240,6 +240,10 @@ main section:nth-child(3) img {
     box-shadow: none;
 }
 
+.timeline-wrapper {
+    width: 500px;
+}
+
 .canvas {
     width: 300px;
     margin: 0 auto;
@@ -309,6 +313,10 @@ canvas {
         margin: 15px auto;
     }
 
+    #once-again {
+        margin: 15px auto 0 auto;
+    }
+    
     .stops {
         margin: 15px auto 0 auto;
     }
@@ -316,5 +324,9 @@ canvas {
     #start:active {
         margin: 20px auto 20px auto;
         box-shadow: none;
+    }
+
+    .timeline-wrapper {
+        width: 320px;
     }
 }
