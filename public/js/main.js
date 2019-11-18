@@ -41,7 +41,7 @@
           let t = `${vestUrl[0]}${vestUrl[1]}${vestUrl[2]}`;
           let good = `${t.match(/h\w/)[0].slice(1, 2)}${t.match(/v\w/)[0].slice(1, 2)}${t.match(/p\w/)[0].slice(1, 2)}`;
           console.log(good);
-          tweet.href = `http://twitter.com/share?url=https://ashitano.herokuapp.com/vest/${good}&text=@kazuhira あしたのベストはこれです&hashtags=あしたのベスト`;
+          tweet.href = `http://twitter.com/share?url=https://ashitano.herokuapp.com/vest/${good}&text=@kazuhi_ra あしたのベストはこれです&hashtags=あしたのベスト`;
         }
       });
 
