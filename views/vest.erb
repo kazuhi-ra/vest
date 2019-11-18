@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://ashitano.herokuapp.com/" />
   <meta property="og:description" content="まわしますか、まわしませんか。" />
   <!--  ここをerbで変える-->
-  <meta property="og:image" content="https://ashitano.herokuapp.com/images/tweet-card.jpg" />
+  <meta id="og-image" property="og:image" content="" />
   <!--  ここをerbで変える-->
   
   <title>あしたのベスト</title>
@@ -33,6 +33,7 @@
   <div class="canvas">
     <canvas id="myCanvas" width="300" height="495"></canvas>
   </div>
+  <div id="result"></div>
 </main>
 <script type="text/javascript" charset="utf-8">
   "use strict";
@@ -57,6 +58,13 @@
       };
     };
   };
+  
+  setTimeout( () => {
+    const data = c.toDataURL('image/jpeg');
+    // document.getElementById('result').innerHTML = `<img src="${data}">`;
+    document.querySelector('#og-image').content = `${data}`;
+  }, 1000);
+
 </script>
 </body>
 
