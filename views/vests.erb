@@ -31,8 +31,8 @@
 <main class="wrapper">
   <div class="vests-wrapper">
     <h1>いろんなベスト</h1>
-    <% a = ["MHL.のベストです", "古着のベストです", "BEAMSのベストです", "BEAMSのベスト2です", "mont-bellのベストです", "BEAMSのベスト3です", "MHL.のベスト2です", "カーディガンです"] %>
-    <% 8.times do |i| %>
+    <% a = ["MHL.のベストです", "古着のベストです", "BEAMSのベストです", "BEAMSのベスト2です", "mont-bellのベストです", "BEAMSのベスト3です", "MHL.のベスト2です", "カーディガンです", "贈り物のベストです"] %>
+    <% a.size.times do |i| %>
       <div class="description">
         <img class="v-image" src="https://ashitano.herokuapp.com/images/v<%= i + 1 %>.jpg">
         <p class="text-contents"><%= a[i] %></p>

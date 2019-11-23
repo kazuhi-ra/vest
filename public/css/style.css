@@ -241,7 +241,7 @@ main section:nth-child(3) img {
 }
 
 .wrapper {
-    padding: 20px 15px 0 20px;
+    padding: 20px 15px 0 15px;
 }
 
 .vests-wrapper {
@@ -406,11 +406,11 @@ canvas {
 
 
     .wrapper {
-        padding: 20px 15px;
+        padding: 20px 15px 0 15px;
     }
 
     .vests-wrapper {
-        height: 520px;
+        height: 650px;
         padding-bottom: 80px;
         text-align: center;
         background-color: rgba(168, 168, 168, 0.9);
