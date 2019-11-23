@@ -92,6 +92,8 @@
     });
   });
 
+  const timer = document.querySelector(".timer");
+  
   const vestUrl = [];
   const tweet = document.getElementById("tweet");
   const onceAgain = document.getElementById("once-again");
