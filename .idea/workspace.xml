@@ -4,7 +4,6 @@
     <list default="true" id="fef2de3b-0415-4fec-b963-d6c283943a05" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.bundle/config" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.ruby-version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blog/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blog/.ruby-version" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../blog/Gemfile" afterDir="false" />
@@ -13076,10 +13075,7 @@
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/views/index.pug" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/views/layout.pug" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../yobiko/node-study/express-study/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/vests.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/vests.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13095,8 +13091,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="409" column="5" lean-forward="true" selection-start-line="409" selection-start-column="5" selection-end-line="409" selection-end-column="5" />
+            <state relative-caret-position="314">
+              <caret line="454" selection-start-line="454" selection-end-line="458" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -13319,12 +13315,12 @@
       <workItem from="1573810373849" duration="6268000" />
       <workItem from="1573875326104" duration="17631000" />
       <workItem from="1573984619097" duration="40203000" />
-      <workItem from="1574489278660" duration="1954000" />
+      <workItem from="1574489278660" duration="2213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78674000" />
+    <option name="totallyTimeSpent" value="78933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -13352,7 +13348,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.35856575" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38998958" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47236705" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -13570,8 +13566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="409" column="5" lean-forward="true" selection-start-line="409" selection-start-column="5" selection-end-line="409" selection-end-column="5" />
+        <state relative-caret-position="314">
+          <caret line="454" selection-start-line="454" selection-end-line="458" selection-end-column="67" />
         </state>
       </provider>
     </entry>
